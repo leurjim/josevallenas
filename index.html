@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Jose Vallenas</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="nav-phthalo">
+        <header>
+            <!-- hamburger icon -->
+            <a class="hamburger" href="#navbar" aria-label="Open main menu">
+                <span class="sr-only">Open main menu</span>
+                <span class="fas fa-bars" aria-hidden="true"></span>
+            </a>
+            <nav id="navbar">
+                <ul>
+                    <li>
+                        <h1>
+                            <a href="index.html">
+                                <span class="fas fa-dumbbell" aria-hidden="true"></span>
+                                Jose Vallenas
+                            </a>
+                        </h1>
+                    </li>
+                    <li><a href="#intro">¿Quién Soy?</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#contacto">Contácteme</a></li>
+                </ul>
+                <!-- close icon -->
+                <a class="close" href="#" aria-label="Close main menu">
+                    <span class="sr-only">Close main menu</span>
+                    <span class="fas fa-times" aria-hidden="true"></span>
+                </a>
+            </nav>
+        </header>
+    </div>
+
+    <section id="intro">
+        <article class="reverse">
+            <div class="text">
+                <p class="name">Hola, mi nombre es <span>Jose Vallenas</span></p>
+                <h2>Asesor de Bienestar</h2>
+                <p>
+                    Hola soy Jose Vallenas. En los últimos 19 años he transformado, educado y motivado a miles de mujeres a que mejoren su salud y figura.
+                </p>
+                <p>
+                    <a href="https://api.whatsapp.com/send?phone=51988386668&text=Hola%20Jose%2C%20estoy%20interesada%20en%20el%20programa%20de%20control%20de%20peso.%20%C2%BFCu%C3%A1l%20es%20el%20siguiente%20paso%3F.%20" target="_blank">
+                        <span class="fa fa-whatsapp" style="font-size:48px" aria-hidden="true"></span>
+                        <span class="sr-only">Whatsapp</span>
+                    </a>
+                </p>
+            </div>
+            <img src="https://res.cloudinary.com/leurjim/image/upload/v1683198262/jose-traje_tbkpqs.jpg" alt="Jose Vallenas traje">
+        </article>
+    </section>
+    <div class="gradient"></div>
+    <div class="testimonios-white">
+        <section id="testimonios">
+            <h2>Testimonios</h2>
+            <article>
+                <div class="text">
+                    <h3>Marta Santi - Colombia</h3>
+                    <p class="blackbox">
+                        "Siempre había tenido tiempo, energía, dinero para todo: mi familia, mi pareja, mi trabajo; y para todos, menos para mí"
+                    </p>
+                </div>
+                <img src="https://res.cloudinary.com/leurjim/image/upload/v1683198262/martasanti_cxhy97.webp" alt="Marta Santi testimonio">
+            </article>
+            <article class="reverse">
+                <div class="text">
+                    <h3>Francisca López - Colombia</h3>
+                    <p class="blackbox">
+                        "Si bajar de peso es solo: comer sano, hacer ejercicio, y evitar comida chatarra....porqué la mayoría de las mujeres no estamos en nuestro peso entonces?.  Necesitamos un acompañamiento!! Y eso encontré en el Reto de Transformación".
+                    </p>
+                </div>
+                <img src="https://res.cloudinary.com/leurjim/image/upload/v1683198262/franciscalopez_acbrk1.webp" alt="Francisca Lopez testimonio">
+            </article>
+            <article>
+                <div class="text">
+                    <h3>Mónica Vallenas - Perú</h3>
+                    <p class="blackbox">
+                        "Gracias a los resultados de mis hermanos, me sentí motivada a empezar con mi propia transformación corporal.
+                        Ahora que soy mamá me siento en mi mejor momento".
+                    </p>
+                </div>
+                <img src="https://res.cloudinary.com/leurjim/image/upload/v1683198262/monicavallenas_vic0xs.webp" alt="Monica Vallenas testimonio">
+            </article>
+            <article class="reverse">
+                <div class="text">
+                    <h3>Juliana Humán - Perú</h3>
+                    <p class="blackbox">
+                        "Mi rutina de la oficina a la casa, el desorden de mi alimentación y mi embarazo me llevaron al sobrepeso. Una amiga me recomendó el Reto y me ayudó a formar nuevos habítos".
+                    </p>
+                </div>
+                <img src="https://res.cloudinary.com/leurjim/image/upload/v1683198262/julianahuaman_kekrv6.webp" alt="Juliana Huaman testimonio">
+            </article>
+        </section>
+    </div>
+    <div class="gradient"></div>
+    <div class="wrapper">
+        <section id="contacto">
+            <h1>Contáctame</h1>
+            <form action="https://formsubmit.co/leao.urbina@email.com" method="POST">
+                <fieldset>
+                    <legend>Ingrese su Información</legend>
+                    <label for="name">Nombre: </label>
+                    <input type="text" id="name" name="user_name" autofocus>
+                    <label for="tel">Celular: </label>
+                    <input type="tel" id="tel" name="user_tel" />
+					<label for="mail">Email: </label>
+					<input type="email" id="mail" name="user_email">
+                    <label for="msg">Dejame un mensaje: </label>
+					<textarea id="msg" name="user_message"></textarea>
+					<button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </div>
+    <div class="gradient"></div>
+    <footer>
+        <h2>Jose Vallenas &middot; Asesor de Bienestar</h2>
+        <ul>
+            <li>
+                <a href="https://api.whatsapp.com/send?phone=51988386668&text=Hola%20Jose%2C%20estoy%20interesada%20en%20el%20programa%20de%20control%20de%20peso.%20%C2%BFCu%C3%A1l%20es%20el%20siguiente%20paso%3F.%20" target="_blank">
+                    <span class="fa fa-whatsapp" aria-hidden="true"></span>
+                    <span class="sr-only">Whatsapp</span>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:josevallenas@gmail.com">
+                  <span class="fas fa-envelope" aria_hidden="true"></span>
+                  <span class="sr-only">Email</span>
+                <a/> 
+              </li>
+        </ul>
+    </footer>
+    <div class="gradient"></div>
+    <div class="brand">
+        <p><small>&copy; 2023 Leurjim. All rights reserved.</small></p>
+    </div>
+    <script src="js/form.js"></script>
+</body>
+</html>
