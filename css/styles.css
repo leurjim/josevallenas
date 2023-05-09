@@ -104,7 +104,7 @@ img {
 .wrapper {
 	width: 80%;
 	margin: 0 auto;
-	padding: 4rem 1rem;
+	padding: 1rem;
 	background-color: var(--hunter);
 	display: flex;
 	flex-flow: column nowrap;
