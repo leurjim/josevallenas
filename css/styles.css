@@ -102,17 +102,17 @@ img {
 }
 
 .wrapper {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
-	padding: 1rem;
+	padding: 1em;
 	background-color: var(--hunter);
 	display: flex;
 	flex-flow: column nowrap;
 }
 
 #contacto {
-    max-width: 1200px;
-    margin: 0 auto;
+    flex-basis: 57%;
+	margin-right: 10%;
 }
 
 #contacto h1 {
@@ -408,14 +408,9 @@ footer h2, p {
         grid-row: 1/2;
     }
 
-    .wrapper {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
-    }
-
     #contacto {
-        grid-column: 2/3;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 }
 
